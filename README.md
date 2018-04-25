@@ -13,7 +13,8 @@ This theme was created for Univerisity of Matej Bel. Layuot of this theme is bas
 Click on button "Clone or download" and unzip downloaded file. Rename this direcroty to "Fordson" and copy to /moodle/theme directory.
 Now go to your Moodle and login as administrator and finish insall in Site Administration > Notifications.
 
-#Advanced Settings
+# Advanced Settings
+
 Colours
 'Link' = 'Choose link color';
 'Top menu' = 'Background color of top menu.';
