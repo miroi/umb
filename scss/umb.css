@@ -1,0 +1,79 @@
+/**
+* General
+* UMB customization by Zuzana Simova
+**/
+body {
+  background-color: #e2d1c8; }
+
+a {
+  color: #e73556; }
+  a:hover {
+    color: #e73556; }
+  a:active {
+    color: #e73556; }
+
+/* menu */
+.navbar-light {
+  background-color: #48281a; }
+
+.navbar-light .navbar-brand {
+  background-color: #7a4d3a;
+  text-transform: uppercase; }
+
+.teacherdash .btn, .teacherdash #page-grade-grading-manage .actions .action, #page-grade-grading-manage .actions .teacherdash .action, .teacherdash #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .teacherdash input, .teacherdash #rubric-rubric.gradingform_rubric .addcriterion, #rubric-rubric.gradingform_rubric .teacherdash .addcriterion, .enrollcodes .btn, .enrollcodes #page-grade-grading-manage .actions .action, #page-grade-grading-manage .actions .enrollcodes .action, .enrollcodes #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .enrollcodes input, .enrollcodes #rubric-rubric.gradingform_rubric .addcriterion, #rubric-rubric.gradingform_rubric .enrollcodes .addcriterion, .siteadminlink .btn, .siteadminlink #page-grade-grading-manage .actions .action, #page-grade-grading-manage .actions .siteadminlink .action, .siteadminlink #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .siteadminlink input, .siteadminlink #rubric-rubric.gradingform_rubric .addcriterion, #rubric-rubric.gradingform_rubric .siteadminlink .addcriterion {
+  background-color: #7a4d3a;
+  border-color: #7a4d3a; }
+
+.editingbutton {
+  background-color: #e73556;
+  border-color: #e73556; }
+  .editingbutton:hover {
+    background-color: #c30e30;
+    border-color: #c30e30; }
+
+.tooltip.tooltip-bottom .tooltip-arrow, .tooltip.bs-tether-element-attached-top .tooltip-arrow {
+  border-bottom-color: #e73556; }
+
+.tooltip-inner {
+  background-color: #e73556; }
+
+/* left */
+div#nav-drawer {
+  background-color: #e2d1c8; }
+
+#nav-drawer a.list-group-item.list-group-item-action.font-weight-bold {
+  background-color: #7a4d3a; }
+
+#nav-drawer .list-group-item-action:focus, .list-group-item-action:hover {
+  background-color: #7a4d3a !important; }
+
+/* btn */
+.btn-primary {
+  background-color: #7a4d3a;
+  border-color: #7a4d3a; }
+  .btn-primary:hover {
+    background-color: #623e2e;
+    border-color: #623e2e; }
+  .btn-primary:active {
+    background-color: #623e2e;
+    border-color: #623e2e; }
+
+.btn-secondary:hover, .btn-default:hover, .btn-secondary:active, .btn-default:active {
+  background-color: #7a4d3a;
+  border-color: #7a4d3a;
+  color: white; }
+
+/* footer */
+footer#page-footer {
+  background-color: #e2d1c8 !important;
+  text-align: center; }
+  footer#page-footer a {
+    color: #48281a !important;
+    font-weight: 600; }
+    footer#page-footer a .icon {
+      color: #48281a !important; }
+
+/* back to top */
+#back-to-top {
+  background-color: #7a4d3a;
+  border-color: #7a4d3a; }

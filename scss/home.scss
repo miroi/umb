@@ -1,0 +1,205 @@
+/**
+* Homepage
+* UMB customization by Zuzana Simova
+**/
+
+$link: #e73556 !default;
+$fpicon: #d2b4a6 !default;
+$fpicon-hover-c: #673e2c !default;
+$header-c: #673e2c !default;
+$fpicon-width: 100px !default;
+
+
+div#learningcontent {
+	border:none;
+}
+
+h2, .class-list h4 {
+	font-size: 2rem;
+    font-weight: 600;
+}
+
+.categoryname a {
+	color: $header-c !important;
+}
+
+.course-title h4 {
+	color: $header-c;
+}
+
+#page-site-index{
+	#page {
+		.menubar .dropdown-toggle {
+			color: #373a3c !important;
+
+			i {
+				color: #373a3c !important;
+			}
+		}
+	}
+}
+
+/* slider */
+.carousel-control.left, .carousel-control.right  {
+		background: none !important;
+}
+
+.carousel-indicators {
+	.active {
+		width: 10px !important;
+	}
+	
+	.carousel-indicators li {
+		width: 10px !important;
+	}
+}
+
+.carousel-caption.d-none.d-md-block {
+	background: none !important;
+}
+
+div#fordsoncarousel {
+	h3 {
+		font-size: 3rem;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+	
+	p {
+		font-size: 1.3rem;
+		font-weight: 400;
+	}
+}
+
+/* icons */
+.fpicon {
+	background-color: $fpicon;
+	border-radius: 0px;
+	height: $fpicon-width;
+    padding-top: 20px;
+	
+	.navicon {
+		margin-bottom: 5px;
+	}
+	
+	a {
+		color: white;
+		font-weight: 600;
+	}
+
+	a:hover {
+		color: white;
+		text-decoration: none;
+	}
+}
+
+.fpiconcreate {
+	background-color: $link;
+	border-radius: 0px;
+	height: $fpicon-width;
+    padding-top: 20px;
+	
+	.navicon {
+		margin-bottom: 5px;
+	}
+	
+	a {
+		color: white;
+		font-weight: 600;
+	}
+
+	a:hover {
+		color: white;
+		text-decoration: none;
+	}
+}
+
+.fpicon:hover, .fpiconcreate:hover {
+	background-color: $fpicon-hover-c !important;
+	border-radius: 0px;
+	height: 100px;
+    padding-top: 20px;
+}
+
+.fa-3x {
+	font-size: 2rem;
+}
+
+/* info box */
+.info-box {
+	.info-1 {
+		background-image:  url([[pix:theme|info-fakulty]]);
+	}
+	
+	.info-2 {
+		background-image:  url([[pix:theme|info-mail]]);
+	}
+	
+	.info-3 {
+		background-image:  url([[pix:theme|info-ais]]);
+	}
+	
+	.info-img {
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		height: 100px;
+	}
+	
+	.info-title {
+		text-align: center;
+		font-size: 18px;
+		font-weight: 700;
+		margin-top: 10px;
+		color: $header-c;	
+	}
+}
+
+.info-box:hover h3{
+			color: $link;
+}
+
+.info-box:hover .info-img {
+	opacity: 0.7;
+}
+
+/* courses */
+.class-box {
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0,.3);
+	box-shadow: 0 0 4px rgba(0,0,0,.3);
+	border: none !important;
+	border-radius: 0px !important;
+	padding: 0px !important;
+	
+	a:hover {
+		color: $header-color;
+		text-decoration: none !important;
+	}
+}
+
+.courseimagecontainer {
+    height: calc(55%);
+}
+
+.course-overlay {
+	margin-top: -8rem;
+}
+
+.course-title {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+ul.teacherscourseview {
+	font-weight: 400 !important;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.class-list h4 {
+	margin-bottom: 15px;
+}
+
+
+
+

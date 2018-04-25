@@ -1,0 +1,282 @@
+/**
+* Course
+* UMB customization by Zuzana Simova
+**/
+
+$link: #e73556 !default;
+$header-course-color: #673e2c !default;
+$block-bg: #f5efec !default;
+$block-header: #fff !default;
+$block-header-bg: #7a4d3a !default;
+$primary: #7a4d3a !default;
+$breadcrumb-color: #7a4d3a !default;
+$topic-header-bg: #7a4d3a !default;
+$topic-header: #fff !default;
+
+#page-header h1 {
+	color: $header-course-color;
+}
+
+/* banner */
+.pagelayout-course {
+	div#learningcontent {
+		margin-top: 350px !important;
+	}
+	
+	.headerbkg {
+		height: 300px !important;
+		margin-top: 50px !important;
+		
+		.default {
+			background-position: left !important;
+		}
+		
+		.withimage {
+			background-position: left !important;
+		}
+	}
+}
+
+/* breadcrumb */
+.breadcrumb-item + .breadcrumb-item::before {
+	content: "►" !important;
+	color: $breadcrumb-color !important;
+	font-size: 12px;
+}
+
+.breadcrumb-item a {
+	color: $breadcrumb-color;
+}
+
+/* card - right */
+aside {
+	.card-block {
+		background-color: $block-bg;
+		padding: 0;
+	}
+	
+	.block h3:before {
+		background-color: transparent !important;
+		font-weight: 400;
+	}
+	
+	.card-text {
+		padding: 20px;
+	}
+}
+
+.block-region .card-block .card-title, .block-region #page-enrol-users #filterform .card-title, #page-enrol-users .block-region #filterform .card-title, .block-region .userprofile .profile_tree section .card-title, .userprofile .profile_tree .block-region section .card-title, .block-region .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right .card-title, .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .block-region .yui-layout-unit-right .card-title, .block-region .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom .card-title, .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .block-region .yui-layout-unit-bottom .card-title, .block-region .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme .card-title, .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .block-region .chat-message.course-theme .card-title, .block-region .well .card-title {
+	background-color: $block-header-bg !important;
+    color: $block-header;
+	font-weight: 600 !important;
+    margin-bottom: 0px;
+	border-radius: 0px !important;
+	
+}
+
+.menubar {
+	.moodle-core-dragdrop-draghandle {
+		color: $block-header;
+	}
+	
+	.icon {
+		color: $block-header;
+	}
+	
+	.dropdown-toggle {
+		color: $block-header !important;
+	}
+}
+
+.dropdown-toggle::after {
+	margin: 0 !important
+}
+
+.calendar-controls a:hover {
+	text-decoration: none;
+	color: $block-header-bg;
+}
+
+.today {
+	background-color: $link;
+	
+	a {
+		color: white;
+	}
+}
+
+/* content */
+.content .menubar {
+	.icon {
+		color: #373a3c !important;
+	}
+	
+	.dropdown-toggle {
+		color: #373a3c !important;
+	}
+}
+
+.dropdown-item .icon {
+	color: #373a3c !important;
+}
+
+h3.sectionname {
+	background-color: $topic-header-bg;
+	color: $topic-header !important;
+    border-left: 10px solid rgba(0,0,0,.2);
+    text-transform: uppercase;
+	font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.course-content ul.topics li.section .content, .course-content ul.weeks li.section .content {
+	background-color: transparent !important;
+	border: 1px solid $block-bg !important;
+    padding-bottom: 15px;
+}
+
+.section li.activity {
+	border: none !important;
+}
+
+.course-content ul.topics li.section .summary, .course-content ul.weeks li.section .summary, .course-content ul.topics li.section .content>.availabilityinfo, .course-content ul.weeks li.section .content>.availabilityinfo {
+	margin: 1.5rem;
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+
+.contentafterlink {
+	font-size: 14px;
+    font-weight: 400;
+}
+
+img.activityicon {
+	height: 24px !important;
+    width: 24px !important;
+	vertical-align: text-bottom !important;
+}
+
+span.instancename {
+	margin: 0 !important;
+}
+
+.sectionname a .icon, a.add-sections .icon{
+	color: white;
+}
+
+
+a.add-sections {
+	color: white;
+	background-color: $primary !important;
+}
+
+/** begin - tlacidlo edit **/
+.topics .menubar .dropdown-toggle {
+	color: #373a3c!important;
+	font-size: 14px;
+}
+
+.weeks .menubar .dropdown-toggle {
+	color: #373a3c!important;
+	font-size: 14px;
+}
+/** end - tlacidlo edit **/
+
+.m-t-2.m-b-1 {
+	background-color: $block-bg;
+}
+
+.course-content .single-section .mdl-bottom {
+	background-color: $block-bg;
+    border: 1px solid #eae4e1;
+}
+
+.editing .section .activity:hover, .editing .section .activity.action-menu-shown {
+	background-color: $block-bg;
+}
+
+.section li.activity:hover {
+	background-color: $block-bg !important;
+}
+
+/* topic - pre collapsed topics plugin*/
+.sectionhead {
+	-webkit-border-radius: 0px !important;
+	border-radius: 0px !important;
+	
+	h3 {
+		background-color: transparent !important;
+		border-left: 0px !important;
+	}
+}
+
+/* manage */
+.teacherdashboard .dashtitle, .studentdashboard .dashtitle {
+	background-color: $primary !important;
+    color: white !important;
+}
+
+.dashtitle h3 {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+/* dashboard */ 
+
+	#courses-view-in-progress {
+		.col-lg-6 {
+			width: 100% !important;
+		}
+	}
+
+.progress-chart-container {
+    height: 30px;
+    width: 30px;
+	
+	.no-progress {
+		height: 30px;
+		width: 30px;
+		
+		.icon {
+			height: 20px;
+			width: 20px;
+		}
+	}
+}
+
+.progress-chart-container .progress-doughnut {
+	height: 30px;
+    width: 30px;
+	
+	.progress-indicator {
+		height: 30px;
+    	width: 30px;
+	}
+}
+
+
+
+.media-left, .media-right, .media-body {
+	vertical-align: middle;
+}
+
+.text-muted, a.dimmed, a.dimmed:link, a.dimmed:visited, a.dimmed_text, a.dimmed_text:link, a.dimmed_text:visited, .dimmed_text, .dimmed_text a, .dimmed_text a:link, .dimmed_text a:visited, .usersuspended, .usersuspended a, .usersuspended a:link, .usersuspended a:visited, .dimmed_category, .dimmed_category a, .tag_feed .media .muted a, #page-admin-qtypes .disabled, #page-admin-qbehaviours .disabled, #page-admin-plugins #plugins-control-panel .pluginname .componentname, #page-admin-plugins #plugins-control-panel .version .versionnumber, #page-admin-plugins #plugins-control-panel .notes .requiredby, #plugins-check-page .page-description, #plugins-check-page #plugins-check .requires-ok, #plugins-check-page #plugins-check .displayname .plugindir, #plugins-check-page #plugins-check-available-dependencies .displayname .component, .block .minicalendar td.weekend, .section .activity .stealth, .course-content .section-summary .section-summary-activities .activity-count, .course-content ul li.section.hidden .sectionname>span, .course-content ul li.section.hidden .content>div.summary, .course-content ul li.section.hidden .activity .activityinstance, #course-category-listings .listitem[data-visible="0"], #course-category-listings .listitem[data-visible="0"]>div>a, #course-category-listings .listing-pagination-totals.dimmed, .fitem.disabled .fp-btn-choose, .form-defaultinfo, .form-label .form-shortname, .formsettingheading .form-horizontal, .no-felement.fstatic, .path-backup .backup_progress .backup_stage {
+	color: #373a3c !important;
+}
+
+.courses-view-course-item {
+	background-color: white !important;
+	height: 100% !important;
+	margin-bottom: 20px !important;
+    padding: 10px;
+    border: 1px solid #ddd !important;
+	
+	.card-block {
+		background-color: white !important;
+	}
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.open .nav-link, .nav-tabs .nav-link.active:focus, .nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-link.active:hover, .nav-tabs .nav-item.open .nav-link:hover {
+	background-color: rgba(122, 77, 58, 0.41) !important
+}
+

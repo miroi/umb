@@ -1,0 +1,13 @@
+/**
+* Login
+* UMB customization by Zuzana Simova
+**/
+
+#page-login-index .card{
+	box-shadow:  0 0 10px 1px rgba(0,0,0,.3)
+}
+
+body#page-login-index, body#page-login-signup{
+    background-image: url([[pix:theme|login]]);
+}
+

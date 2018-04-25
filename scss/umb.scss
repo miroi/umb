@@ -1,0 +1,121 @@
+/**
+* General
+* UMB customization by Zuzana Simova
+**/
+
+$link: #e73556 !default;
+$navbar-bg: #48281a !default;
+$body-bg-color: #e2d1c8 !default;
+$footer-link: #48281a !default;
+$primary: #7a4d3a !default;
+$primary-hover: #623e2e !default;
+
+
+body {
+	background-color: $body-bg-color;
+}
+
+
+a {
+	color: $link;
+	
+	&:hover {
+		color: $link;
+	}
+	
+	&:active {
+		color: $link;
+	}
+}
+
+/* menu */
+.navbar-light {
+	background-color: $navbar-bg;
+}
+
+.navbar-light .navbar-brand {
+    background-color: $primary;
+    text-transform: uppercase;
+}
+
+.teacherdash .btn, .teacherdash #page-grade-grading-manage .actions .action, #page-grade-grading-manage .actions .teacherdash .action, .teacherdash #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .teacherdash input, .teacherdash #rubric-rubric.gradingform_rubric .addcriterion, #rubric-rubric.gradingform_rubric .teacherdash .addcriterion, .enrollcodes .btn, .enrollcodes #page-grade-grading-manage .actions .action, #page-grade-grading-manage .actions .enrollcodes .action, .enrollcodes #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .enrollcodes input, .enrollcodes #rubric-rubric.gradingform_rubric .addcriterion, #rubric-rubric.gradingform_rubric .enrollcodes .addcriterion, .siteadminlink .btn, .siteadminlink #page-grade-grading-manage .actions .action, #page-grade-grading-manage .actions .siteadminlink .action, .siteadminlink #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel .siteadminlink input, .siteadminlink #rubric-rubric.gradingform_rubric .addcriterion, #rubric-rubric.gradingform_rubric .siteadminlink .addcriterion {
+	background-color: $primary;
+	border-color: $primary;
+}
+
+.editingbutton {
+	background-color: $link;
+    border-color: $link;
+	
+	&:hover {
+		background-color: #c30e30;
+		border-color: #c30e30;
+	}	
+}
+
+.tooltip.tooltip-bottom .tooltip-arrow, .tooltip.bs-tether-element-attached-top .tooltip-arrow {
+    border-bottom-color: $link;
+}
+
+.tooltip-inner {
+    background-color: $link;
+}
+
+/* left */
+div#nav-drawer {
+	background-color: $body-bg-color;
+}
+
+#nav-drawer a.list-group-item.list-group-item-action.font-weight-bold {
+	background-color: $primary;
+}
+
+#nav-drawer .list-group-item-action:focus, .list-group-item-action:hover {
+	background-color: $primary !important;
+}
+
+/* btn */
+.btn-primary {
+	background-color: $primary;
+	border-color: $primary;
+	
+	&:hover {
+		background-color: $primary-hover;
+		border-color: $primary-hover;
+	}
+	
+	&:active {
+		background-color: $primary-hover;
+		border-color: $primary-hover;
+	}
+}
+
+.btn-secondary:hover, .btn-default:hover, .btn-secondary:active, .btn-default:active {
+	background-color: $primary;
+	border-color: $primary;
+	color: white;
+}
+
+/* footer */
+footer#page-footer {
+	background-color: $body-bg-color !important;
+	text-align: center;
+	
+	a {
+    	color: $footer-link !important;
+    	font-weight: 600;
+		
+		.icon {
+			color: $footer-link !important;
+		}
+	}
+}
+
+/* back to top */
+#back-to-top {
+	background-color: $primary;
+	border-color: $primary;
+}
+
+
+

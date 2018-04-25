@@ -1,0 +1,53 @@
+/*
+Error: Undefined variable: "$body-bg".
+        on line 35 of C:/Users/zuzka/Documents/moodleõ/theme/fordson/scss/styles.scss
+
+30: $link-color: #fff !default;
+31: $breadcrumb-padding-y: 10px !default;
+32: $breadcrumb-padding-x: 10px !default;
+33: $border-radius: 4px !default;
+34: $breadcrumb-bg: #fff !default;
+35: $footer-bg: $body-bg !default;
+36: $learningcontentpadding: 400px !default;
+37: $blockwidthfordson: 280px !default;
+38: $slideshowheight: 250px !default;
+39: $activityiconsize: 36px !default;
+40: $activityhover: #fff6ae !default;
+
+Backtrace:
+C:/Users/zuzka/Documents/moodleõ/theme/fordson/scss/styles.scss:35
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:469:in `visit_variable'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/root_node.rb:20:in `render'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:278:in `render'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:420:in `run'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/bin/sass:13:in `<top (required)>'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `load'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$body-bg\".\A         on line 35 of C:/Users/zuzka/Documents/moodleõ/theme/fordson/scss/styles.scss\A \A 30: $link-color: #fff !default;\A 31: $breadcrumb-padding-y: 10px !default;\A 32: $breadcrumb-padding-x: 10px !default;\A 33: $border-radius: 4px !default;\A 34: $breadcrumb-bg: #fff !default;\A 35: $footer-bg: $body-bg !default;\A 36: $learningcontentpadding: 400px !default;\A 37: $blockwidthfordson: 280px !default;\A 38: $slideshowheight: 250px !default;\A 39: $activityiconsize: 36px !default;\A 40: $activityhover: #fff6ae !default;"; }
